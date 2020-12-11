@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = { "src/test/resources/features/order.feature" }, glue = {
-		"stepdef" }, tags = "" , plugin = { "pretty", "html:Reports/cucumberHTMLReport",
+		"stepdef" }, tags = "" , plugin = { "pretty", "html:Reports/cucumberHTMLReport.html",
 				"json:Reports/cucumberJSONReport/jsonreport" },
 
 		monochrome = true)
