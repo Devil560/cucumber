@@ -1,0 +1,792 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5724000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User launch the browser and navigate to the application",
+            "match": {
+              "location": "stepdef.Steps.user_launch_the_browser_and_navigate_to_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T15:04:09.443Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7685000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.Steps.user_launch_the_browser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "To check whether order gets created or not.",
+        "description": "",
+        "id": "smartbearsoftware-demosite;to-check-whether-order-gets-created-or-not.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1381000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.Steps.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 408000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "on the landing page verifies Username Textbox, Password Textbox and Login button",
+            "match": {
+              "location": "stepdef.Steps.on_the_landing_page_verifies_username_textbox_password_textbox_and_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3879000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Login using the valid credentials such as username as \"Tester\" and password as \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester",
+                  "offset": 55
+                },
+                {
+                  "val": "test",
+                  "offset": 80
+                }
+              ],
+              "location": "stepdef.Steps.login_using_the_valid_credentials_such_as_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify the Welcome ‘USERNAME’ showing the name as needed",
+            "match": {
+              "location": "stepdef.Steps.verify_the_welcome_username_showing_the_name_as_needed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1079000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "navigate to the Orders page",
+            "match": {
+              "location": "stepdef.Steps.navigate_to_the_orders_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "select any product from the list and enter the quantity as \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 60
+                }
+              ],
+              "location": "stepdef.Steps.select_any_product_from_the_list_and_enter_the_quantity_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3819000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click the calculate button",
+            "match": {
+              "location": "stepdef.Steps.click_the_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify the value displayed correctly for the quantity and price",
+            "match": {
+              "location": "stepdef.Steps.verify_the_value_displayed_correctly_for_the_quantity_and_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1414000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter the name as \"sanchit\" and street as \"civil lines\" and city as \"bareilly\" and state as \"up\" and zip as \"243122\" for the order",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sanchit",
+                  "offset": 19
+                },
+                {
+                  "val": "civil lines",
+                  "offset": 43
+                },
+                {
+                  "val": "bareilly",
+                  "offset": 69
+                },
+                {
+                  "val": "up",
+                  "offset": 93
+                },
+                {
+                  "val": "243122",
+                  "offset": 109
+                }
+              ],
+              "location": "stepdef.Steps.enter_the_name_as_and_street_as_and_city_as_and_state_as_and_zip_as_for_the_order(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4082000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter a dummy credit card details including cardnumber as \"123456789012\" and expirydate as \"06/19\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456789012",
+                  "offset": 59
+                },
+                {
+                  "val": "06/19",
+                  "offset": 92
+                }
+              ],
+              "location": "stepdef.Steps.enter_a_dummy_credit_card_details_including_cardnumber_as_and_expirydate_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1095000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click process and verify the confirmation message",
+            "match": {
+              "location": "stepdef.Steps.click_process_and_verify_the_confirmation_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 782000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "navigate to View all orders",
+            "match": {
+              "location": "stepdef.Steps.navigate_to_view_all_orders()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3597000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "verify the presence of the order placed",
+            "match": {
+              "location": "stepdef.Steps.verify_the_presence_of_the_order_placed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1037000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "edit the same order by changing expirydate as \"12/19\" and type to visa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12/19",
+                  "offset": 47
+                }
+              ],
+              "location": "stepdef.Steps.edit_the_same_order_by_changing_expirydate_as_and_type_to_visa(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3847000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "verify the presence of updated order",
+            "match": {
+              "location": "stepdef.Steps.verify_the_presence_of_updated_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testall"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4913000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User launch the browser and navigate to the application",
+            "match": {
+              "location": "stepdef.Steps.user_launch_the_browser_and_navigate_to_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T15:04:50.073Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5522000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.Steps.user_launch_the_browser()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "To check whether order can be edited or not.",
+        "description": "",
+        "id": "smartbearsoftware-demosite;to-check-whether-order-can-be-edited-or-not.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1342000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.Steps.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 418000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "on the landing pagee verifies Username Textbox, Password Textbox and Login button",
+            "match": {
+              "location": "stepdef.Steps.on_the_landing_pagee_verifies_username_textbox_password_textbox_and_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3015000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Login usingg the valid credentials such as username as \"Tester\" and password as \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester",
+                  "offset": 56
+                },
+                {
+                  "val": "test",
+                  "offset": 81
+                }
+              ],
+              "location": "stepdef.Steps.login_usingg_the_valid_credentials_such_as_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verifyy the Welcome ‘USERNAME’ showing the name as needed",
+            "match": {
+              "location": "stepdef.Steps.verifyy_the_welcome_username_showing_the_name_as_needed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1181000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "navigatee to the Orders page",
+            "match": {
+              "location": "stepdef.Steps.navigatee_to_the_orders_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 491000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "select anyy product from the list and enter the quantity as \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 61
+                }
+              ],
+              "location": "stepdef.Steps.select_anyy_product_from_the_list_and_enter_the_quantity_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3716000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "click thee calculate button",
+            "match": {
+              "location": "stepdef.Steps.click_thee_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Verify the valuee displayed correctly for the quantity and price",
+            "match": {
+              "location": "stepdef.Steps.verify_the_valuee_displayed_correctly_for_the_quantity_and_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1412000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Enter the namee as \"sanchit\" and street as \"civil lines\" and city as \"bareilly\" and state as \"up\" and zip as \"243122\" for the order",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sanchit",
+                  "offset": 20
+                },
+                {
+                  "val": "civil lines",
+                  "offset": 44
+                },
+                {
+                  "val": "bareilly",
+                  "offset": 70
+                },
+                {
+                  "val": "up",
+                  "offset": 94
+                },
+                {
+                  "val": "243122",
+                  "offset": 110
+                }
+              ],
+              "location": "stepdef.Steps.enter_the_namee_as_and_street_as_and_city_as_and_state_as_and_zip_as_for_the_order(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3836000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Enter a dummy creditt card details including cardnumber as \"123456789012\" and expirydate as \"06/19\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456789012",
+                  "offset": 60
+                },
+                {
+                  "val": "06/19",
+                  "offset": 93
+                }
+              ],
+              "location": "stepdef.Steps.enter_a_dummy_creditt_card_details_including_cardnumber_as_and_expirydate_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 873000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "click process and verifyy the confirmation message",
+            "match": {
+              "location": "stepdef.Steps.click_process_and_verifyy_the_confirmation_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 923000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "navigate to Vieww all orders",
+            "match": {
+              "location": "stepdef.Steps.navigate_to_vieww_all_orders()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3576000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "verify the presencee of the order placed",
+            "match": {
+              "location": "stepdef.Steps.verify_the_presencee_of_the_order_placed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1117000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "edit the samee order by changing expirydate as \"12/19\" and type to visa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12/19",
+                  "offset": 48
+                }
+              ],
+              "location": "stepdef.Steps.edit_the_samee_order_by_changing_expirydate_as_and_type_to_visa(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3720000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "verify the presencee of updated order",
+            "match": {
+              "location": "stepdef.Steps.verify_the_presencee_of_updated_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3657000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User will edit the order created in last scenario",
+            "match": {
+              "location": "stepdef.Steps.user_will_edit_the_order_created_in_last_scenario()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4509000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "updates the zip code as \"delhi\" and city as \"230222\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "delhi",
+                  "offset": 25
+                },
+                {
+                  "val": "230222",
+                  "offset": 45
+                }
+              ],
+              "location": "stepdef.Steps.updates_the_zip_code_as_something_and_city_as_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3242000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Verify the updated details on view orders page",
+            "match": {
+              "location": "stepdef.Steps.verify_the_updated_details_on_view_orders_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8632000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "click on logout button and verify the same",
+            "match": {
+              "location": "stepdef.Steps.click_on_logout_button_and_verify_the_same()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testall"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5246000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User launch the browser and navigate to the application",
+            "match": {
+              "location": "stepdef.Steps.user_launch_the_browser_and_navigate_to_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T15:05:46.527Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3945000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.Steps.user_launch_the_browser()"
+            }
+          }
+        ],
+        "line": 70,
+        "name": "To verify products and related information on products page.",
+        "description": "",
+        "id": "smartbearsoftware-demosite;to-verify-products-and-related-information-on-products-page.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1545000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.Steps.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2348000000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "onn the landing pagee verifies Username Textbox, Password Textbox and Login button",
+            "match": {
+              "location": "stepdef.Steps.onn_the_landing_pagee_verifies_username_textbox_password_textbox_and_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2721000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Loginn usingg the valid credentials such as username as \"Tester\" and password as \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester",
+                  "offset": 57
+                },
+                {
+                  "val": "test",
+                  "offset": 82
+                }
+              ],
+              "location": "stepdef.Steps.loginn_usingg_the_valid_credentials_such_as_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Verifyy the Welcome ‘USERNAME’ showing the name as neededd",
+            "match": {
+              "location": "stepdef.Steps.verifyy_the_welcome_username_showing_the_name_as_neededd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2581000000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "navigate to View all products page",
+            "match": {
+              "location": "stepdef.Steps.navigate_to_view_all_products_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3291000000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "verify the products in the table",
+            "match": {
+              "location": "stepdef.Steps.verify_the_products_in_the_table()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2394000000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "clickk on logout button and verify the same",
+            "match": {
+              "location": "stepdef.Steps.clickk_on_logout_button_and_verify_the_same()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testall"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "smartbearsoftware demosite",
+    "description": "\tIn order to Automate the site\nAs a practice automation user\nI want to connect with the smartbearsoftware Demo site application",
+    "id": "smartbearsoftware-demosite",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/order.feature",
+    "tags": [
+      {
+        "name": "@testall",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
