@@ -167,6 +167,13 @@
 					<includes>
 						<include>**/*Test.java</include>
 					</includes>
+					 <systemPropertyVariables>
+                                             <executionPlatform>${executionPlatformDefault}</executionPlatform>
+                                             <gridURL>${gridURLDefault}</gridURL>
+                                             <apiHost>${apiHostDefault}</apiHost>
+                                             <applicationHost>${applicationHostDefault}</applicationHost>
+                                             <dashboardHost>${dashboardHostDefault}</dashboardHost>
+                                          </systemPropertyVariables>
 
 				</configuration>
 			</plugin>
