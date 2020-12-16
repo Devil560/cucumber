@@ -8,7 +8,7 @@ phases:
 
   build:
     commands:
-      - mvn clean test -Dcucumber.options="--tags '@UITest and @Smoke'" -DExecutionPlatform="AWS_CHROME"
+      - mvn clean test -Dcucumber.options="--tags '@testall and @smoketest'" -DExecutionPlatform="AWS_CHROME"
 
   post_build:
     commands:
